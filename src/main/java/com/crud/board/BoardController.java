@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+
 @Controller
 @RequestMapping("/board")
 public class BoardController {
@@ -63,4 +64,5 @@ public class BoardController {
             System.out.println("데이터 삭제 성공");
         return "redirect:../list";
     }
+
 }

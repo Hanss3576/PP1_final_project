@@ -6,5 +6,6 @@
 <configuration>
     <typeAliases>
         <typeAlias type="com.crud.board.BoardVO" alias="Board" />
+        <typeAlias type="com.crud.member.UserVO" alias="User" />
     </typeAliases>
 </configuration>
