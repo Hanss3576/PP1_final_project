@@ -10,8 +10,18 @@ public class BoardVO {
     private String youtubeLink;
     private String sheet;
     private String type;
-    private String worshipTeam;
+    private String team;
     private Date regdate;
+
+    private String worshipDate;
+
+    public String getWorshipDate() {
+        return worshipDate;
+    }
+    public void setWorshipDate(String worshipDate) {
+        this.worshipDate = worshipDate;
+    }
+
 
     public String getTitle() {
         return title;
@@ -61,14 +71,6 @@ public class BoardVO {
         this.type = type;
     }
 
-    public String getWorshipTeam() {
-        return worshipTeam;
-    }
-
-    public void setWorshipTemas(String worshipTeam) {
-        this.worshipTeam = worshipTeam;
-    }
-
     public Date getRegdate() {
         return regdate;
     }
@@ -83,5 +85,13 @@ public class BoardVO {
 
     public void setSeq(int seq) {
         this.seq = seq;
+    }
+
+    public String getTeam() {
+        return team;
+    }
+
+    public void setTeam(String team) {
+        this.team = team;
     }
 }

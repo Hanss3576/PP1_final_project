@@ -71,10 +71,13 @@
                 <td>${board.seq}</td>
                 <td>${board.title}</td>
                 <td>${board.writer}</td>
+                <td>${board.team}</td>
                 <td>${board.content}</td>
-                <td>${board.worshipTeam}</td>
                 <td>${board.regdate}</td>
-                <td><a href="editform/${board.seq}">Edit</a></td>
+                <td><a href="editform/${board.seq}">
+                    <i class="fa-solid fa-eye"></i>
+                    </a></td>
+                </a></td>
                 <td><a href="javascript:delete_ok('${board.seq}')">Delete</a></td>
             </tr>
         </c:forEach>
