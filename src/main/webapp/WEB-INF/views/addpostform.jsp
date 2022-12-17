@@ -24,8 +24,23 @@
                 <td><input type="text" name="writer" size="20"></td>
             </tr>
             <tr>
-                <td>내용</td>
-                <td><textarea name="content" cols="50" rows="10"></textarea></td>
+                <td>찬양팀</td>
+                <td>
+<%--                    <input type = "radio" name = "worshipTeam" value = "프레이즈">프레이즈--%>
+<%--                    <input type = "radio" name = "worshipTeam" value = "끝시간">끝시간--%>
+<%--                    <input type = "radio" name = "worshipTeam" value = "강물">강물--%>
+                    <select name="worshipTeam">
+                        <option value="프레이즈">프레이즈</option>
+                        <option value="끝시간">끝시간</option>
+                        <option value="강물">강물</option>
+                        <option value="기타/신앙공동체">기타/신앙공동체</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>참고 내용</td>
+                <td><textarea name="content" cols="50" rows="5"></textarea></td>
+                <td></td>
             </tr>
             <tr>
                 <td colspan="2">

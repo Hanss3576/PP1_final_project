@@ -59,6 +59,7 @@
             <th>ID</th>
             <th>Title</th>
             <th>Writer</th>
+            <th>Team</th>
             <th>Contents</th>
             <th>작성일</th>
             <th>Edit</th>
@@ -71,6 +72,7 @@
                 <td>${board.title}</td>
                 <td>${board.writer}</td>
                 <td>${board.content}</td>
+                <td>${board.worshipTeam}</td>
                 <td>${board.regdate}</td>
                 <td><a href="editform/${board.seq}">Edit</a></td>
                 <td><a href="javascript:delete_ok('${board.seq}')">Delete</a></td>
