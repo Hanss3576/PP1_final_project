@@ -12,7 +12,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>free board</title>
+    <title>Set list Board</title>
     <style>
         #list {
             font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -31,14 +31,14 @@
         }
 
         #list tr:hover {
-            background-color: #ddd;
+            background-color: #E3FFE3; color: black;
         }
 
         #list th {
             padding-top: 12px;
             padding-bottom: 12px;
             text-align: center;
-            background-color: #006bb3;
+            background-color: #8D9E8D;
             color: white;
         }
     </style>
@@ -51,9 +51,7 @@
     </script>
 </head>
 <body>
-    <h1>자유 게시판
-    </h1>
-
+    <h1>찬양 콘티 공유 게시판</h1>
     <table id="list">
         <tr>
             <th>ID</th>
